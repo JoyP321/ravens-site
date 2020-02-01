@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-
+{% block style %}{{ url_for('static', filename='style.css') }}{% endblock %}
 {% block title %}Contact{% endblock %}
 
 {% block content %}

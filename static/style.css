@@ -55,7 +55,7 @@ div.sideBar{
 .galleryItem{
     display:inline-block;
     margin:2%;
-    width:21%;    
+    width:20%;    
 }
 
 .galleryItem:hover {

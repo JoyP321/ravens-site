@@ -1,6 +1,6 @@
 
 {% extends "layout.html" %}
-
+{% block style %}{{ url_for('static', filename='homeStyle.css') }}{% endblock %}
 {% block title %}Home{% endblock %}
 
 {% block content %}

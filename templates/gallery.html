@@ -17,7 +17,12 @@
       $(".galleryItem").click(function(){
         $(".galleryItem").animate({width: '100%'});
       });
+      $(".galleryItem").mouseleave(function(){
+        $(".galleryItem").animate({width: '44%'});
+      });
     });
   </script> 
 
 {% endblock %}
+
+

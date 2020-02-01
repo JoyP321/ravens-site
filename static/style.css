@@ -17,27 +17,3 @@ div#footer {
     width: 100%;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-li a {
-  font-size: 2vw;
-  display: block;
-  color: grey;
-  text-decoration: none;
-  float: right;
-  padding-left:2%;
-  padding-right:2%;
-  padding-top:1%;
-  padding-bottom:5%;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  color: white;
-  text-decoration: none;
-}

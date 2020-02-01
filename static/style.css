@@ -5,3 +5,8 @@ body{
   background-size: cover;
   background-position: center; 
 }
+
+#mainTitle{
+  font-size: 50vw;
+  padding-left: 15vw;
+}

@@ -3,7 +3,7 @@
 {% block title %}Gallery{% endblock %}
 
 {% block content %}
-  <a href="/img1"><img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo"></a>
+  
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
@@ -12,5 +12,12 @@
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
+  <script> 
+    $(document).ready(function(){
+      $(".galleryItem").click(function(){
+        $(".galleryItem").animate({width: '100%'});
+      });
+    });
+  </script> 
 
 {% endblock %}

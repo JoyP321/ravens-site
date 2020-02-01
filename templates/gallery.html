@@ -3,7 +3,7 @@
 {% block title %}Gallery{% endblock %}
 
 {% block content %}
-  <!--<img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
+  <a href="/img1"><img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo"></a>
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
@@ -11,36 +11,6 @@
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
   <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
-  <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">-->
-  <img class="myImg", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo1" style="width:100%;max-width:300px">
-  <img class="myImg", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo2" style="width:100%;max-width:300px">
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
-    <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
+  <img class="galleryItem", src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo">
 
 {% endblock %}

@@ -15,6 +15,7 @@
   <script> 
     $(document).ready(function(){
       $(".galleryItem").click(function(){
+        console.log($(this).css('width'));
         if($(this).css('width')=='44%'){
           $(this).animate({width: '98%'})
         }else{

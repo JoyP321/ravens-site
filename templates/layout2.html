@@ -11,6 +11,7 @@
 
   <body>
     <ul>
+      <li><img src =  "{{url_for('static',filename='raven.jpeg')}}", alt="logo"></li>
       <li {% if active_page == "home" %} class="active"{% endif %}><a href="/">HOME</a></li>
       <li {% if active_page == "shop" %} class="active"{% endif %}><a href="/shop">SHOP</a></li>
       <li {% if active_page == "gallery" %} class="active"{% endif %}><a href="/gallery">GALLERY</a></li>

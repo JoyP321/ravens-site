@@ -15,10 +15,10 @@
   <script> 
     $(document).ready(function(){
       $(".galleryItem").click(function(){
-        $(this).animate({width: '98%', display:'block'});
+        $(this).animate({width: '98%', position: 'fixed');
       });
       $(".galleryItem").mouseleave(function(){
-        $(this).animate({width: '44%', display: 'inline-block'});
+        $(this).animate({width: '44%', position: 'static'});
       });
     });
   </script> 

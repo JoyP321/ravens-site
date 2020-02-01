@@ -23,5 +23,9 @@ def render_about():
 def render_contact():
     return render_template('contact.html')
 
+@app.route("/img1")
+def render_contact():
+    return render_template('home.html')
+
 if __name__=="__main__":
     app.run(debug=True)

@@ -38,3 +38,9 @@ li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
+
+div.sideBar{
+    margin-left:25%;
+    padding:1px 16px;
+    height:1000px;
+}

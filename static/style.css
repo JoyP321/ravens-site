@@ -59,7 +59,7 @@ div.sideBar{
 }
 
 /* Style the Image Used to Trigger the Modal */
-#myImg{
+.galleryImg{
   display:inline-block;
   margin:2%;
   width:44%; 
@@ -68,7 +68,7 @@ div.sideBar{
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+.galleryImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {

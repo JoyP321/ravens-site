@@ -10,16 +10,16 @@
   </head>
 
   <body>
-   <ul>
-    <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/">HOME</a></li>
-    <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/shop">SHOP</a></li>
-    <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/gallery">GALLERY</a></li>
-    <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/about">ABOUT</a></li>
-    <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/contact">CONTACT</a></li>
-  </ul>
-    <div id="sideBar">{% block content %}{% endblock %}</div>
-     <div id="footer">
-        <p>Social Media etc</p>
+    <ul>
+      <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/">HOME</a></li>
+      <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/shop">SHOP</a></li>
+      <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/gallery">GALLERY</a></li>
+      <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/about">ABOUT</a></li>
+      <li class="nav-item{% if active_page == "page1" %} active{% endif %}"><a href="/contact">CONTACT</a></li>
+    </ul>
+    <div class="sideBar">{% block content %}{% endblock %}</div>
+    <div id="footer">
+      <p>Social Media etc</p>
     </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>

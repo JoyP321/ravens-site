@@ -1,0 +1,20 @@
+
+<!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+
+  <body>
+    <div id="content">{% block content %}{% endblock %}</div>
+     <div id="footer">
+        <p>Social Media etc</p>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+
+</html>

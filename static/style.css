@@ -59,7 +59,10 @@ div.sideBar{
 }
 
 /* Style the Image Used to Trigger the Modal */
-.galleryItem {
+#myImg{
+  display:inline-block;
+  margin:2%;
+  width:44%; 
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;

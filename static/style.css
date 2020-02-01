@@ -16,7 +16,7 @@ div#footer {
     background-color: #ffffff;
     padding: 10px;
     margin:0%;
-    height:10%; 
+    height:7%; 
     position: fixed;
     left: 0;
     bottom: 0;
@@ -33,7 +33,7 @@ ul {
 li a {
   font-size: 2vw;
   display: block;
-  color: black;
+  color: grey;
   text-decoration: none;
   float: right;
   padding-left:2%;
@@ -44,6 +44,6 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-  color: grey;
+  color: white;
   text-decoration: none;
 }

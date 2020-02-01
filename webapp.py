@@ -17,6 +17,7 @@ def render_gallery():
 
 @app.route("/about")
 def render_about():
+    print(active_page)
     return render_template('about.html')
 
 @app.route("/contact")

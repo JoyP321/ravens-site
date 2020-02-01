@@ -51,3 +51,10 @@ div.sideBar{
     width:100%;
     padding:5%;
 }
+
+.galleryItem{
+    display:inline-block;
+    padding:5%;
+    width:100%
+    
+}

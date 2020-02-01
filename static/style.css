@@ -58,6 +58,8 @@ div.sideBar{
     width:44%;    
 }
 
-.galleryImg:hover {opacity: 0.7;}
+.galleryItem:hover {
+    opacity: 0.7;
+}
 
 

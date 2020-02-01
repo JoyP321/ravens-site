@@ -11,11 +11,11 @@
 
   <body>
     <ul>
-      <li class="nav-item{% if active_page == "home" %} active{% endif %}"><a href="/">HOME</a></li>
-      <li class="nav-item{% if active_page == "shop" %} active{% endif %}"><a href="/shop">SHOP</a></li>
-      <li class="nav-item{% if active_page == "gallery" %} active{% endif %}"><a href="/gallery">GALLERY</a></li>
-      <li class="nav-item{% if active_page == "about" %} active{% endif %}"><a href="/about">ABOUT</a></li>
-      <li class="nav-item{% if active_page == "contact" %} active{% endif %}"><a href="/contact">CONTACT</a></li>
+      <li class="{% if active_page == "home" %} active{% endif %}"><a href="/">HOME</a></li>
+      <li class="{% if active_page == "shop" %} active{% endif %}"><a href="/shop">SHOP</a></li>
+      <li class="{% if active_page == "gallery" %} active{% endif %}"><a href="/gallery">GALLERY</a></li>
+      <li class="{% if active_page == "about" %} active{% endif %}"><a href="/about">ABOUT</a></li>
+      <li class="{% if active_page == "contact" %} active{% endif %}"><a href="/contact">CONTACT</a></li>
     </ul>
     <div class="sideBar">{% block content %}{% endblock %}</div>
     <div id="footer">

@@ -19,10 +19,12 @@
         
         if($(this).hasClass('myToggle')){
           $(this).removeClass('myToggle')
-          $(this).animate({width: '20%'})
+		  $(this).css({"width":"23%", "position": "static", "left":"auto"})
+          //$(this).animate({width: '20%'})
         }else{
           $(this).addClass('myToggle')
-          $(this).animate({width: '98%'})
+		  $(this).css({"width": "100%", "position": "absolute", "left":"25%"})
+          //$(this).animate({width: '75%'})
       }
       });
 

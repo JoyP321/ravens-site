@@ -11,6 +11,10 @@ div#footer {
     width: 100%;
 }
 
+body{
+	margin: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -42,19 +46,19 @@ li a:hover:not(.active) {
 
 div.sideBar{
     margin-left:25%;
-    padding:1px 16px;
-    height:1000px;
 }
 
 .logo{
-    width:100%;
+    width: 90%;
     padding:5%;
 }
 
 .galleryItem{
     display:inline-block;
-    margin:2%;
-    width:20%;    
+    margin:1%;
+	padding:0%;
+	border: 0;
+    width:22%;    
 }
 
 .galleryItem:hover {

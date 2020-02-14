@@ -66,6 +66,14 @@
        }
       });
 
+      $("window").resize(function(){
+	      if($(window).width()<=600){
+		 $(".galleryItem").css( "width", "45%")      
+	      }else{
+		 $(".galleryItem").css( "width", "22%") 
+	      }
+      });
+
     });
   </script> 
 

@@ -16,15 +16,14 @@
   <script> 
     $(document).ready(function(){
       $(".galleryItem").click(function(){
-        
         if($(this).hasClass('myToggle')){
-          $(this).removeClass('myToggle')
-		  $(this).css({"width":"22%", "position": "static", "left":"auto"})
-          //$(this).animate({width: '20%'})
+        	$(this).removeClass('myToggle')
+	  			$(this).css({"width":"22%", "position": "static", "left":"auto"})
+					$(".galleryItem:hover").css({"opacity", "0.7"})
         }else{
           $(this).addClass('myToggle')
-		  $(this).css({"width": "73%", "position": "absolute", "left":"25%"})
-          //$(this).animate({width: '75%'})
+          $(this).css({"width": "73%", "position": "absolute", "left":"25%"})
+					$(".galleryItem:hover").css({"opacity", "1"})
       }
       });
 

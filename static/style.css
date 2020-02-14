@@ -59,16 +59,16 @@ div.sideBar{
     margin:1%;
     padding:0%;
     border: 0;
-    width:22%;    
+    width:45%;    
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (min-width: 1000px){
     .galleryItem{
     	display:inline-block;
     	margin:1%;
     	padding:0%;
     	border: 0;
-    	width:45%;    
+    	width:22%;    
    }
 }
 

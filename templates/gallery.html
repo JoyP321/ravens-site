@@ -19,11 +19,11 @@
         if($(this).hasClass('myToggle')){
        		$(this).removeClass('myToggle')
 	  	$(this).css({"width":"22%", "position": "static", "left":"auto"})
-		$(".galleryItem:hover").css("opacity", "0.7")
+		//$("body").css("opacity", "0.7")
         }else{
         	$(this).addClass('myToggle')
-        	$(this).css({"width": "73%", "position": "absolute", "left":"25%"})
-		$(".galleryItem:hover").css("opacity", "1")
+        	$(this).css({"width": "73%", "position": "absolute", "left":"25%", "background-color" : "rgba(0,0,0,0.9)"})
+		//$("body").css("opacity", "1")
        }
       });
 

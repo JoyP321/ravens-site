@@ -24,6 +24,7 @@ ul {
   position: fixed;
   height: 100%;
   overflow: auto;
+  font-size:1vw;
 }
 
 li a {

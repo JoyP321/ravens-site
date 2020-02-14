@@ -42,11 +42,11 @@
       $(".galleryItem").click(function(){
         if($(this).hasClass('myToggle')){
        		$(this).removeClass('myToggle')
-	  	$(this).css({"top": "auto", "width":"22%", "position": "static", "left":"auto"})
+	  	$(this).css({ "width":"22%", "position": "static", "left":"auto"})
 		
         }else{
         	$(this).addClass('myToggle')
-        	$(this).css({"top": "15%", "width": "73%", "position": "absolute", "left":"25%"})
+        	$(this).css({ "width": "73%", "position": "absolute", "left":"25%"})
 
        }
       });

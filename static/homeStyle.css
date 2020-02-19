@@ -4,6 +4,7 @@ body{
   background-attachment: fixed;
   background-size: cover;
   background-position: center; 
+  
 }
 
 
@@ -17,6 +18,7 @@ ul {
 
 li a {
   font-size: 2vw;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
   display: block;
   color: grey;
   text-decoration: none;
@@ -37,6 +39,7 @@ li a:hover {
   font-size: 10vw;
   padding-left: 10%;
   color: white;
+  font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 }
 
 div#footer {
